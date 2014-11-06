@@ -1,0 +1,7 @@
+#rb-dashboard .panel dl {
+	margin-bottom: 0;
+}
+#rb-dashboard dt, 
+#rb-dashboard dd {
+	line-height: 2;
+}

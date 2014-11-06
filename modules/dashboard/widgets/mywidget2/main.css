@@ -1,0 +1,27 @@
+#rb-dashboard .rb-summary {
+	padding: 0
+}
+#rb-dashboard .rb-table-column:first-child {
+	border-left: 0;
+}
+#rb-dashboard .rb-table-column {
+	padding: 10px;
+	text-align: center;
+	border-left: 1px solid #ddd;
+	border-top: 1px solid #ddd;
+	color: #999;
+	font-size: 11px;
+	display: table-cell;
+	width: 1%;
+	vertical-align: top;
+}
+#rb-dashboard .rb-table-column .rb-num {
+	font-weight: 300;
+	line-height: 1.3em;
+	font-size: 24px;
+	display: block;
+	color: #333;
+}
+#morris-area-chart {
+	height: 200px;
+}
