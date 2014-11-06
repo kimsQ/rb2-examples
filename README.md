@@ -1,4 +1,8 @@
-rb-examples
+rb2-examples
 ===========
 
-rb-example packages
+##layout
+
+### Responsive
+
+- Cover-developer  http://demo.kimsq.com/rb2/cover-dev/
