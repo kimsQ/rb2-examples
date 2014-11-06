@@ -1,0 +1,50 @@
+#rb-body .jumbotron {
+	padding: 5px 0 15px 0;
+}
+#rb-body .jumbotron h2 {
+	font-family: "malgun gothic";
+	font-size: 35px;
+}
+#rb-body .jumbotron p {
+	font-size: 14px;
+}
+/* 첫번째 서브메뉴에 3차메뉴가 있을 경우 보더 2px 될때 이 주석을 풀어줍니다.*/
+#rb-body .rb-menu .panel-heading {
+	/* border-bottom: 0; */
+}
+#rb-body .rb-menu .list-group .panel {
+	padding: 0;
+	margin: 0;
+	border-top: #dfdfdf solid 1px;
+	border-left: 0;
+	border-right: 0;
+	border-bottom: 0;
+}
+#rb-body .rb-menu .list-group>:last-child {
+	border-bottom: 0;
+}
+#rb-body .rb-menu .list-group ul li a {
+	padding-top: 6px;
+	padding-bottom: 6px;
+}
+/*2차메뉴액티브*/
+#rb-body .rb-menu .list-group ul .active {
+	background-color: #dfdfdf; 
+	font-weight: normal;
+}
+/*2차메뉴 상단에 출력되는 1차메뉴*/
+#rb-body .rb-menu .list-group .rb-fmenu {
+	font-weight: bold;
+}
+
+/*컬럼 사이즈 지정*/
+@media (min-width: 992px) {
+  #content-main {
+    width: 800px; /* 양쪽 padding여백 제외하면 760px */
+    left: 200px;
+  }
+  #content-sub {
+    width: 200px; /* 양쪽 padding여백 제외하면 180px */
+    right: 800px
+  }
+}
