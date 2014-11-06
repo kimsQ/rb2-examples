@@ -1,0 +1,158 @@
+/*포스트 미디어 삽입*/
+.rb-widget-edit-img {
+	width: 300px;
+	height: 150px;
+	border: #666 dotted 2px;
+	background: url('../../modules/site/lang.korean/pages/images/thumb_small.gif') #efefef no-repeat center center;
+}
+img {
+  vertical-align: middle;
+}
+.img-responsive,
+.thumbnail > img,
+.thumbnail a > img,
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.img-rounded {
+  border-radius: 6px;
+}
+.img-thumbnail {
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+  padding: 4px;
+  line-height: 1.42857143;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  -webkit-transition: all .2s ease-in-out;
+          transition: all .2s ease-in-out;
+}
+.img-circle {
+  border-radius: 50%;
+}
+
+.col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+float: left;
+}
+.col-sm-12 {
+width: 99.7%;
+}
+.col-sm-10 {
+width: 53.6%;
+}
+.col-sm-9 {
+width: 45.6%;
+}
+.col-sm-8 {
+width: 58.8%;
+}
+.col-sm-7 {
+width: 40.6%;
+}
+.col-sm-6 {
+width: 49.70%;
+}
+.col-sm-5 {
+width: 32.999%;
+}
+.col-sm-4 {
+width: 24%;
+}
+.col-sm-3 {
+width: 19.5%;
+}
+.col-sm-2 {
+width: 15.66666667%;
+}
+.col-sm-1 {
+width: 8.33333333%;
+}
+
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.rb-insert-media {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center
+}
+
+.rb-insert-media img {
+	padding: 0;
+	margin: 1px;
+	border: 1px solid rgba(0, 0, 0, .1);
+	border-radius: 0;
+	}
+
+
+.rb-insert-media .row {
+	margin-left: -1px;
+	margin-right: -1px;
+}
+
+.rb-insert-media .col-xs-1,
+.rb-insert-media .col-sm-1,
+.rb-insert-media .col-md-1,
+.rb-insert-media .col-lg-1,
+.rb-insert-media .col-xs-2,
+.rb-insert-media .col-sm-2,
+.rb-insert-media .col-md-2,
+.rb-insert-media .col-lg-2,
+.rb-insert-media .col-xs-3,
+.rb-insert-media .col-sm-3,
+.rb-insert-media .col-md-3,
+.rb-insert-media .col-lg-3,
+.rb-insert-media .col-xs-4,
+.rb-insert-media .col-sm-4,
+.rb-insert-media .col-md-4,
+.rb-insert-media .col-lg-4,
+.rb-insert-media .col-xs-5,
+.rb-insert-media .col-sm-5,
+.rb-insert-media .col-md-5,
+.rb-insert-media .col-lg-5,
+.rb-insert-media .col-xs-6,
+.rb-insert-media .col-sm-6,
+.rb-insert-media .col-md-6,
+.rb-insert-media .col-lg-6,
+.rb-insert-media .col-xs-7,
+.rb-insert-media .col-sm-7,
+.rb-insert-media .col-md-7,
+.rb-insert-media .col-lg-7,
+.rb-insert-media .col-xs-8,
+.rb-insert-media .col-sm-8,
+.rb-insert-media .col-md-8,
+.rb-insert-media .col-lg-8,
+.rb-insert-media .col-xs-9,
+.rb-insert-media .col-sm-9,
+.rb-insert-media .col-md-9,
+.rb-insert-media .col-lg-9,
+.rb-insert-media .col-xs-10,
+.rb-insert-media .col-sm-10,
+.rb-insert-media .col-md-10,
+.rb-insert-media .col-lg-10,
+.rb-insert-media .col-xs-11,
+.rb-insert-media .col-sm-11,
+.rb-insert-media .col-md-11,
+.rb-insert-media .col-lg-11,
+.rb-insert-media .col-xs-12,
+.rb-insert-media .col-sm-12,
+.rb-insert-media .col-md-12,
+.rb-insert-media .col-lg-12 {
+    padding-left: 1px;
+    padding-right: 1px;
+}
+.rb-insert-media .rb-caption {
+  margin-top: 15px;
+  color: #777
+}
+
+.rb-insert-media .caption:before {
+  content: '▲ ' ;
+}
