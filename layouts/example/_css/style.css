@@ -1,0 +1,232 @@
+/*!
+ * kimsQ Rb v2.0 기본형 레이아웃 글로벌 스타일
+ * layout Version: 1.0
+ * Homepage: http://www.kimsq.co.kr
+ * Copyright 2014 redblock inc
+ * Licensed under MIT
+ * Based on Bootstrap v3.1.1
+*/
+
+/**
+ * 목차:
+ *
+ * 1 - Reset 초기화
+ * 2 - Structure 구조
+ * 3 - Header 헤더 
+ * 4 - Content 컨텐츠
+ * 5 - Sidebar 사이드바 
+ * 6 - Footer 풋터
+ * ----------------------------------------------------------------------------
+ */
+
+
+/**
+ * 1 - Reset 초기화
+ * ----------------------------------------------------------------------------
+ */
+
+/*폰트설정*/
+/*@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);*/
+/* '나눔고딕', 'Nanum Gothic' 나눔고딕 지정시 상당한 로딩(체감 2초이상) 걸리는 문제있음 -김성호 20141001- */
+
+#rb-body,
+#rb-body h1,
+#rb-body h2,
+#rb-body h3,
+#rb-body h4,
+#rb-body h5,
+#rb-body h6,
+#rb-body input,
+#rb-body select,
+#rb-body textarea  {
+    font-family: '돋움', dotum, sans-serif, FontAwesome;
+}
+/**
+ * 2 - Structure 구조 
+ *
+ * 컬럼,여백 사이즈 조정 
+ * ----------------------------------------------------------------------------
+ */
+
+/* bootstrap Container size 와 grid-gutter-width 수정 */
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  min-width: 320px
+}
+@media (min-width: 768px) {
+  .container {
+    width: 740px;  /* padding여백 제외하면 720px */
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 1000px; /* padding여백 제외하면 980px */
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1000px; /* padding여백 제외하면 980px */
+  }
+}
+
+#content.row {
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+#content.row [class*="col-"] {
+    position: relative;
+    min-height: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+/**
+ * 3 - Header 헤더 
+ * ----------------------------------------------------------------------------
+ */
+
+#rb-page-top.navbar-inverse .navbar-brand,
+#rb-page-top.navbar-inverse .navbar-nav>li>a {
+    color: #ccc;
+}
+
+
+/*토글 레이어*/
+#rb-page-top .rb-toggle-layer {
+    padding: 0;
+    text-shadow: none;
+}
+@media (min-width: 768px) {
+  #rb-page-top .rb-toggle-layer {
+      width: 332px;
+  }
+}
+#rb-page-top .rb-toggle-layer .panel {
+    margin: 0;
+    border: none;
+    padding: 0;
+    font-size: 11px;
+}
+#rb-page-top .rb-toggle-layer .media {
+    margin-top: 0;
+}
+#rb-page-top .rb-toggle-layer .list-group {
+    max-height: 450px;
+    overflow: auto;
+}
+#rb-page-top .rb-toggle-layer .panel-footer a {
+    display: block;
+    text-align: center;
+    font-weight: bold;
+}
+
+#rb-page-top .rb-toggle-layer .rb-avatar {
+    width: 50px;
+    height: 50px
+}
+#rb-page-top .rb-toggle-layer .rb-time {
+    color: #999999;
+    font-size: 11px;
+    padding-top: 3px
+}
+#rb-page-top .rb-toggle-layer .rb-time .fa {
+    font-size: 13px;
+}
+
+#rb-page-top .badge {
+	position: relative;
+	top: -2px;
+	font-size: 11px;
+	font-weight: normal;
+}
+#rb-page-top .rb-notification-active {
+	background: #ff0000;
+}
+
+/*알림 레이어*/
+@media (min-width: 768px) {
+  #rb-page-top .rb-notifications-layer {
+      width: 330px;
+  }
+}
+
+/*로그인 레이어*/
+#rb-page-top .rb-login-layer {
+    padding: 15px;
+    padding-bottom: 20px;
+}
+@media (min-width: 768px) {
+ #rb-page-top .rb-login-layer {
+    width: 250px;
+  }
+}
+#rb-page-top .rb-login-layer form {
+    margin-bottom: 15px
+}
+
+
+/**
+ * 4 - Content 컨텐츠
+ * ----------------------------------------------------------------------------
+ */
+
+/*상단 타이틀 영역 */
+.jumbotron {
+    margin-top: -20px; /* navbar 하단마진을 상쇄 , Offset bottom margin on .navbar */
+}
+
+@media (min-width: 768px) {
+    .rb-layout-default .jumbotron {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+}
+
+#content-main .page-header:first-child {
+    margin-top: 20px
+}
+
+
+/**
+ * 5 - Sidebar 사이드바 
+ * ----------------------------------------------------------------------------
+ */
+
+.rb-sidebar .rb-menu .panel-title ,
+.rb-sidebar .rb-menu .list-group a {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.rb-sidebar .rb-menu .list-group > .nav > .active {
+    font-weight: bold;
+}
+.rb-sidebar .rb-menu .list-group-item .branch:after {
+    content: "\f0da";
+    float: right;
+    display: inline-block;
+    min-width: 10px;
+    vertical-align: baseline;
+    white-space: nowrap;
+    text-align: center;
+}
+.rb-sidebar .rb-menu .list-group-item.active .branch:after {
+    content: "\f0d7";
+}
+
+
+/**
+ * 6 - Footer 풋터
+ * ----------------------------------------------------------------------------
+ */
+.rb-footer {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-top: 100px;
+    border-top: 1px solid #e5e5e5;
+}
