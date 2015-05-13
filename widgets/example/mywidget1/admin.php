@@ -81,24 +81,6 @@ function widgetCode(n)
 //위젯 삽입하기
 function saveCheck(n)
 {
-	if (n) parent.InserHTMLtoEditor(widgetCode(n));
-	else {
-		var f = document.procform;
-		<?php if(!$option):?>
-		var i;
-		var n = 0;
-		for (i = 0; i < parent.maxTiles; i++)
-		if (parent.moveObject[i].style.display=='block') n = i+1;
-		<?php else:?>
-		var n = <?php echo $dropfield?>;
-		<?php endif?>
-
-		<?php if(!$option):?>
-		parent.createTile('440px','350px','0px','0px'); // 위젯블럭 사이즈 및 위치(너비,높이,top,left)
-		<?php endif?>
-		parent.blocktitle[n] = '테스트위젯'; // 위젯블럭 타이틀
-		parent.blockarray[n] = "<?php echo $swidget?>,bid^" + f.bbsid.value + ",limit^"+f.limit.value+",width^"+f.width.value+",height^"+f.height.value+",link^"+f.link.value+",title^"+f.title.value; // 위젯변수 셋팅
-		parent.getId('wtitle'+n).innerHTML = parent.blocktitle[n];
-	}
+	<?php $isCodeOnly='Y'?>// 코드추출만 지원할 경우
 }
 </script>
