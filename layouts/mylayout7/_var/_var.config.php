@@ -15,15 +15,6 @@ $d['layout']['date'] = false;  // 데이트픽커 사용
 
 $d['layout']['dom'] = array(
 
-	/* 테마 */
-	'theme' => array(
-		'테마',
-		'현재 사이트에 적용중인 레이아웃의 테마를 설정합니다. 테마를 변경하면 전체적인 분위기를 한번에 바꿀 수 있습니다.',
-		array(
-			array('kind','select','테마 지정하기',$_tmp['themestr']),
-		),
-	),
-
 	/* 헤더 */
 	'header' => array(
 		'헤더',
