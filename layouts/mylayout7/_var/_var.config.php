@@ -10,20 +10,6 @@ $d['layout']['show'] = true; // 관리패널에 레이아웃 관리탭을 보여
 $d['layout']['date'] = false;  // 데이트픽커 사용
 
 //***********************************************************************************
-// 테마검색
-//***********************************************************************************
-
-$_tmp['themestr']  = '사용안함=disabled';
-$_tmp['themepath'] = $g['path_plugin'].'bootstrap/'.$d['ov']['bootstrap'].'/css/themes';
-$_tmp['themehnd']  = opendir($_tmp['themepath']); 
-while(false !== ($_tmp['themedir'] = readdir($_tmp['themehnd']))) 
-{ 
-	if(strstr($_tmp['themedir'],'.')) continue;
-	$_tmp['themestr'] .= ','.$_tmp['themedir'].'='.$_tmp['themedir'];
-} 
-closedir($_tmp['themehnd']);
-
-//***********************************************************************************
 // 설정배열
 //***********************************************************************************
 
