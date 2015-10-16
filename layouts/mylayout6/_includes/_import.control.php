@@ -1,5 +1,6 @@
 <?php
-include $g['dir_layout'].'/_var/_var.php';
+$g['layoutVarForSite'] = $g['dir_layout'].'_var/_var.'.$r.'.php';
+include is_file($g['layoutVarForSite']) ? $g['layoutVarForSite'] : $g['dir_layout'].'_var/_var.php';
 
 // 레이아웃에 포함된 메인페이지 사용할 경우
 if (strstr($g['main'],$g['dir_layout']) && !$prelayout)
