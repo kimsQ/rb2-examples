@@ -1,12 +1,3 @@
-#rb-body,
-#rb-body h1,
-#rb-body h2,
-#rb-body h3,
-#rb-body h4,
-#rb-body h5,
-#rb-body h6,
-#rb-body input,
-#rb-body select,
-#rb-body textarea  {
-    font-family: '돋움', dotum, sans-serif, FontAwesome;
+body, h1, h2, h3, h4, h5, h6, input, select, textarea, button {
+    font-family: Dotum,'돋움',Helvetica,AppleSDGothicNeo,sans-serif;
 }
