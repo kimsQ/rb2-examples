@@ -24,9 +24,6 @@
 <!-- bootstrap js -->
 <?php getImport('bootstrap','js/bootstrap.min',false,'js')?>
 
-<!-- font awesome -->
-<?php getImport('font-awesome','css/font-awesome',false,'css')?> 
-
 <!-- 레이아웃 전역(global) 스타일 -->
 <link href="<?php echo $g['url_layout']?>/_css/style.css" rel="stylesheet">
 
