@@ -1,8 +1,6 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no,target-densitydpi=medium-dpi">
-<meta name="apple-mobile-web-app-capable" content="no">
-<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
 <!-- Seo -->
 <meta name="robots" content="<?php echo strip_tags($g['meta_bot'])?>">
@@ -35,14 +33,11 @@
 <!-- custom css -->
 <link href="<?php echo $g['url_layout']?>/_css/custom.css" rel="stylesheet">
 
-<!-- local css -->
-<link href="<?php echo $g['url_layout'].'/'.str_replace('.php','.css',basename($d['layout']['php']))?>" rel="stylesheet">
-
 <!-- 사이트 헤드 코드 -->
 <?php echo $_HS['headercode']?>
 
 <!-- 엔진코드:삭제하지마세요 -->
-<?php include $g['path_core'].'engine/cssjs.engine.php'?>
+<?php include $g['path_core'].'engine/cssjs.engine.php' ?>
 
 <!-- global js -->
 <script src="<?php echo $g['url_layout']?>/_js/script.js"></script>
