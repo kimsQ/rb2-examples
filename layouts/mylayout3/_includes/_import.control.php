@@ -1,4 +1,5 @@
 <?php
+// 레이아웃 내장 페이지 연결 
 if (isset($layoutPage))
 {
 	$g['dir_module_mode'] = $g['dir_layout'].'/_pages/'.$layoutPage;
