@@ -7,6 +7,4 @@ $d['layout']['header_login'] = "toggle";
 $d['layout']['header_notify'] = "true";
 $d['layout']['front_slide'] = "";
 $d['layout']['front_people'] = "";
-$d['layout']['sub_colla'] = "";
-$d['layout']['sub_tree'] = "";
 ?>

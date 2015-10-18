@@ -1,12 +1,7 @@
-.theme-dropdown .dropdown-menu {
-	position: static;
-	display: block;
-	margin-bottom: 20px;
-}
+@charset "utf-8";
+/*레이아웃 내장 페이지(main) 전용 css*/
+/*필요할 경우 사용하세요*/
 
-.theme-showcase > p > .btn {
-	margin: 5px 0;
-}
 .rb-main-img-circle {
 	width: 140px;
 	height: 140px;

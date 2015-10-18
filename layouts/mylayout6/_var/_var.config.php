@@ -40,16 +40,6 @@ $d['layout']['dom'] = array(
 		),
 	),
 
-	/* 서브페이지 */
-	'sub' => array(
-		'서브 메뉴',
-		'3단계 이상의 메뉴구조를 사용할 경우에 메뉴의 방식을 지정할 수 있습니다. 비활성화시 기본방식으로 동작합니다.',
-		array(
-			array('colla','checkbox','서브메뉴 방식','Collapse 형식으로 접고 펼치기=colla'),
-			array('tree','checkbox','트리메뉴 펼침','트리메뉴를 항상 펼친상태로 유지=tree'),
-		),
-	),
-
 	/* 도움말 */
 	'help' => array(
 		'도움말',
