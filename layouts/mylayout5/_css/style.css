@@ -1,12 +1,29 @@
-#rb-body,
-#rb-body h1,
-#rb-body h2,
-#rb-body h3,
-#rb-body h4,
-#rb-body h5,
-#rb-body h6,
-#rb-body input,
-#rb-body select,
-#rb-body textarea  {
-    font-family: '돋움', dotum, sans-serif, FontAwesome;
+@charset "utf-8";
+
+/*!
+ * 레이아웃 글로벌 스타일
+ */
+
+/**
+ * 목차:
+ *
+ * 1 - Reset 초기화
+ * 2 - Structure 구조
+ * 3 - Header 헤더 
+ * 4 - Content 컨텐츠
+ * 5 - Sidebar 사이드바 
+ * 6 - Footer 풋터
+ * ----------------------------------------------------------------------------
+ */
+
+
+/**
+ * 1 - Reset 초기화
+ * ----------------------------------------------------------------------------
+ */
+ 
+
+/*폰트설정*/
+body, h1, h2, h3, h4, h5, h6, input, select, button,textarea  {
+    font-family: '돋움', dotum, sans-serif;
 }

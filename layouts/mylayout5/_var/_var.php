@@ -1,5 +1,4 @@
 <?php
-$d['layout']['theme_kind'] = "default";
 $d['layout']['header_input'] = "";
 $d['layout']['header_hidden'] = "";
 $d['layout']['header_file'] = "";

@@ -26,23 +26,17 @@
 <!-- bootstrap js -->
 <?php getImport('bootstrap','js/bootstrap.min',false,'js')?>
 
-<!-- font awesome -->
-<?php getImport('font-awesome','css/font-awesome',false,'css')?> 
-
-<!-- global css -->
+<!-- 레이아웃 전역(global) 스타일 -->
 <link href="<?php echo $g['url_layout']?>/_css/style.css" rel="stylesheet">
 
-<!-- custom css -->
-<link href="<?php echo $g['url_layout']?>/_css/custom.css" rel="stylesheet">
-
 <!-- local css -->
-<link href="<?php echo $g['url_layout'].'/'.str_replace('.php','.css',basename($d['layout']['php']))?>" rel="stylesheet">
+<link href="<?php echo $g['url_layout'].'/_css/'.str_replace('.php','.css',basename($d['layout']['php']))?>" rel="stylesheet">
 
 <!-- 사이트 헤드 코드 -->
 <?php echo $_HS['headercode']?>
 
 <!-- 엔진코드:삭제하지마세요 -->
-<?php include $g['path_core'].'engine/cssjs.engine.php'?>
+<?php include $g['path_core'].'engine/cssjs.engine.php' ?>
 
-<!-- global js -->
+<!-- 레이아웃 전역(global) 스크립트 -->
 <script src="<?php echo $g['url_layout']?>/_js/script.js"></script>
