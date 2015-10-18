@@ -1,4 +1,6 @@
- @charset "utf-8";
+@charset "utf-8";
+
+/*레이아웃 내장 페이지(main) 전용 css*/
 
 .rb-front {
 	padding-top: 100px;
