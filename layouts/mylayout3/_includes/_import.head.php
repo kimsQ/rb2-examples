@@ -24,7 +24,7 @@
 <!-- bootstrap js -->
 <?php getImport('bootstrap','js/bootstrap.min',false,'js')?>
 
-<!-- 레이아웃 전역(global) 스타일 -->
+<!-- 레이아웃 글로벌(global) 스타일 -->
 <link href="<?php echo $g['url_layout']?>/_css/style.css" rel="stylesheet">
 
 <!-- 사이트 헤드 코드 -->
@@ -33,5 +33,5 @@
 <!-- 엔진코드:삭제하지마세요 -->
 <?php include $g['path_core'].'engine/cssjs.engine.php' ?>
 
-<!-- 레이아웃 전역(global) 스크립트 -->
+<!-- 레이아웃 글로벌(global) 스크립트 -->
 <script src="<?php echo $g['url_layout']?>/_js/script.js"></script>
